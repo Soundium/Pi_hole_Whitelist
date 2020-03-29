@@ -67,7 +67,7 @@ sudo ./whitelist.sh
    
 ***     
    
-### Licence
+### License
 ```
 MIT License
 
