@@ -1,20 +1,10 @@
-<p align="center">
-  <img width="550" src="https://raw.githubusercontent.com/anudeepND/whitelist/master/images/logo.png">
-</p>    
-      
-<p align="center">  
-  <a href="https://www.paypal.me/anudeepND"><img alt="Donate using Paypal" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"></a>
-  &nbsp;&nbsp;
-  <a href="https://liberapay.com/Anudeep/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
-</p>
-         
-         
+               
 ## Commonly white listed domains for Pi-Hole (Compatible with Pi-Hole Docker Image).  
           
 A robust collection of commonly white listed websites borrowed from various sources including Pi-Hole subreddit, Pi-Hole forum, Pi-Hole github repository and more!
 Add these domains to your Pi-Hole setup by running a script or manually and make your setup **trouble-free!**
                 
-Want to report a new domain? Want to report exsisting one? Feel free to file an <a href="https://github.com/anudeepND/whitelist/issues">issue</a>.
+Want to report a new domain? Want to report exsisting one? Feel free to file an <a href="https://github.com/Soundium/Pi-hole-Whitelist/issues">issue</a>.
          
          
  <p align="center">
