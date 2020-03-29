@@ -1,6 +1,6 @@
 #!/bin/bash
 # This script will download and add domains from the rep to whitelist.txt file.
-# Project homepage: https://github.com/Soundium/whitelist
+# Project homepage: https://github.com/Soundium/Pi_hole_Whitelist
 # Licence: https://github.com/Soundium/whitelist/blob/master/LICENSE
 # Created by Soundium
 #================================================================================
@@ -19,7 +19,7 @@ if [ "$(id -u)" != "0" ] ; then
 	exit 2
 fi
 
-curl -sS https://raw.githubusercontent.com/Soundium/Pi-hole-Whitelist/master/domains/whitelist.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+curl -sS https://raw.githubusercontent.com/Soundium/Pi_hole_Whitelist/master/domains/whitelist.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 echo -e " ${TICK} \e[32m Adding domains to whitelist... \e[0m"
 sleep 0.1
 echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
@@ -32,6 +32,6 @@ echo -e " ${TICK} \e[32m Pi-hole's gravity updated \e[0m"
 echo -e " ${TICK} \e[32m Done! \e[0m"
 
 
-echo -e " \e[1m  Star me on GitHub, https://github.com/Soundium/Pi-hole-Whitelist \e[0m"
+echo -e " \e[1m  Star me on GitHub, https://github.com/Soundium/Pi_hole_Whitelist \e[0m"
 echo -e " \e[1m  Happy AdBlocking :)\e[0m"
 echo -e "\n\n"
