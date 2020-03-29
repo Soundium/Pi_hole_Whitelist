@@ -4,12 +4,7 @@
 A robust collection of commonly white listed websites borrowed from various sources including Pi-Hole subreddit, Pi-Hole forum, Pi-Hole github repository and more!
 Add these domains to your Pi-Hole setup by running a script or manually and make your setup **trouble-free!**
                 
-Want to report a new domain? Want to report exsisting one? Feel free to file an <a href="https://github.com/Soundium/Pi-hole-Whitelist/issues">issue</a>.
-         
-         
- <p align="center">
-  <img height="430" src="https://raw.githubusercontent.com/anudeepND/whitelist/master/images/run.gif">
-</p> 
+Want to report a new domain? Want to report exsisting one? Feel free to file an <a href="https://github.com/Soundium/Pi_hole_Whitelist/issues">issue</a>.
          
 * * *
          
@@ -39,27 +34,19 @@ Want to report a new domain? Want to report exsisting one? Feel free to file an 
  ***For Docker installation***           
  Access you running Pi-Hole container by `docker exec -it <container-ID> bash` and proceed with the steps given below:
 ```
-git clone https://github.com/anudeepND/whitelist.git
-cd whitelist/scripts
+git clone https://github.com/Soundium/Pi_hole_Whitelist.git
+cd Pi_hole_Whitelist/scripts
 ./whitelist.sh
 ```
 If you keep the `/etc/pihole` on a volume outside the container you need to change `PIHOLE_LOCATION`and `GRAVITY_UPDATE_COMMAND` variables based on your setup.
          
 ***For whitelist.txt***     
 ```
-git clone https://github.com/anudeepND/whitelist.git
+git clone https://github.com/Soundium/Pi_hole_Whitelist.git
 cd whitelist/scripts
 sudo ./whitelist.sh
 ```
-             
-***For referral-sites.txt***          
-```
-git clone https://github.com/anudeepND/whitelist.git
-cd whitelist/scripts
-sudo ./referral.sh
-```
-
-**Note: You don't have to clone the repo every time you need to update whitelist file. Navigate to `whitelist/scripts` and run it again `sudo ./whitelist.sh`**
+**Note: You don't have to clone the repo every time you need to update whitelist file. Navigate to `Pi_hole_Whitelist/scripts` and run it again `sudo ./whitelist.sh`**
         
 ***For optional-list.txt***     
 You can add it manually depending upon the service you use. 
@@ -67,19 +54,19 @@ You can add it manually depending upon the service you use.
 ***For Automated Update***
 ```
 cd /opt/
-sudo git clone https://github.com/anudeepND/whitelist.git
+sudo git clone https://github.com/Soundium/Pi_hole_Whitelist.git
 ```
 Make the script to run the script at 1AM on the last day of the week
 
 `sudo nano /etc/crontab`
 
 Add this line at the end of the file:       
-`0 1 * * */7     root    /opt/whitelist/scripts/whitelist.sh`
+`0 1 * * */7     root    /opt/Pi_hole_Whitelist/scripts/whitelist.sh`
 
 CTRL + X then Y and Enter
 
 ```
-sudo whitelist/scripts/whitelist.sh
+sudo Pi_hole_Whitelist/scripts/whitelist.sh
 sudo ./whitelist.sh
 ```
    
