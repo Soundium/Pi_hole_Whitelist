@@ -34,7 +34,7 @@ cd Pi_hole_Whitelist/scripts
 ```
 If you keep the `/etc/pihole` on a volume outside the container you need to change `PIHOLE_LOCATION`and `GRAVITY_UPDATE_COMMAND` variables based on your setup.
          
-***For whitelist.txt***     
+***Manual installation***     
 ```
 git clone https://github.com/Soundium/Pi_hole_Whitelist.git
 cd whitelist/scripts
@@ -42,8 +42,6 @@ sudo ./whitelist.sh
 ```
 **Note: You don't have to clone the repo every time you need to update whitelist file. Navigate to `Pi_hole_Whitelist/scripts` and run it again `sudo ./whitelist.sh`**
         
-***For optional-list.txt***     
-You can add it manually depending upon the service you use. 
 
 ***For Automated Update***
 ```
