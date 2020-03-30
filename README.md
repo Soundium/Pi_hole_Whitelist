@@ -58,7 +58,7 @@ Add this line at the end of the file:
 CTRL + X then Y and Enter
 
 ```
-sudo Pi_hole_Whitelist/scripts/whitelist.sh
+sudo /opt/Pi_hole_Whitelist/scripts/whitelist.sh
 ```
    
 ***     
