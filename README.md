@@ -59,7 +59,6 @@ CTRL + X then Y and Enter
 
 ```
 sudo Pi_hole_Whitelist/scripts/whitelist.sh
-sudo ./whitelist.sh
 ```
    
 ***     
