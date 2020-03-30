@@ -48,12 +48,12 @@ sudo ./whitelist.sh
 cd /opt/
 sudo git clone https://github.com/Soundium/Pi_hole_Whitelist.git
 ```
-Make the script to run the script at 1AM on the last day of the week
+Make the script to run the script at 1AM every day.
 
 `sudo nano /etc/crontab`
 
 Add this line at the end of the file:       
-`0 1 * * */7     root    /opt/Pi_hole_Whitelist/scripts/whitelist.sh`
+`0 1 * * *   root    /opt/Pi_hole_Whitelist/scripts/whitelist.sh`
 
 CTRL + X then Y and Enter
 
