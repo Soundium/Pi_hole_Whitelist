@@ -214,6 +214,21 @@ acdn.adnxs.com
 cdn1.smartadserver.com
 ec-ns.sascdn.com
 
+#Banks
+api.leanplum.com
+cdn.branch.io
+identity.mparticle.com
+mediation.adnxs.com
+mpsnare.iesnare.com
+nexus.ensighten.com
+
+#Brave Browser
+ads-serve.brave.com
+
+#CNN Mobile
+vendorlist.consensu.org
+geolocation.onetrust.com
+
 # DirectTV Now
 js.maxmind.com
 directvnow.com
@@ -265,6 +280,14 @@ gfwsl.geforce.com
 # GTA Online telemetry. Whitelist this domain to prevent the game from crashing.
 prod.telemetry.ros.rockstargames.com
 
+#Google
+video-stats.video.google.com
+imasdk.googleapis.com
+
+#Epic Games
+graphql.epicgames.com
+tracking.epicgames.com 
+
 # Host files
 hosts-file.net
 raw.githubusercontent.com
@@ -313,6 +336,12 @@ silo.pluto.tv
 cdn-mobile.api.pluto.tv
 api.pluto.tv
 players.pluto.tv
+
+#Papa John
+viewer.content.glympse.com
+
+#Microsoft
+sfdataservice.microsoft.com
 
 # Roku HGTV app: Failed to play previous episodes
 dcs-vod.apis.anvato.net
@@ -366,13 +395,15 @@ market.spotify.com
 spclient.wg.spotify.com
 audio-ake.spotify.com.edgesuite.net
 
+#Sueddeutsche
+c.amazon-adsystem.com
+
 # Target's Weekly Ads
 weeklyad.target.com
 m.weeklyad.target.com
 weeklyad.target.com.edgesuite.net
 
 # UK University application website
-# https://github.com/anudeepND/whitelist/issues/30
 track.ucas.com
 
 # URL shorteners
@@ -404,3 +435,31 @@ v20.events.data.microsoft.com
 
 # streamelements.com (Blocked by Pi-hole regex)
 stats.streamelements.com
+
+#REHL
+79423.analytics.edgekey.net
+
+#PS4
+72qclg2-gosprod-qos02.i3d-jnb.ea.com
+54-201-170-112-pushcl.np.communication.playstation.net
+vl.api.np.km.playstation.net
+utas.external.s2.fut.ea.com
+us-tpy.np.community.playstation.net
+us-push.np.communication.playstation.net
+us-prof.np.community.playstation.net
+us-ntl.np.community.playstation.net
+us.np.stun.playstation.net
+us-ivt.np.community.playstation.net
+
+#Rakuten
+s-bid.rmp.rakuten.com
+
+#NEST Doorbell
+nexus.dropcam.com 
+oculus4395-us1.dropcam.com
+
+#NPO
+b.scorecardresearch.com 
+sb.scorecardresearch.com 
+tag.aticdn.net
+
