@@ -219,6 +219,7 @@ global-image.aliexpress.com
 global-image.aliexpress.com.gds.alibabadns.com
 us1111.alicdn.com.edgekey.net
 graph.facebook.com
+b-graph.facebook.com
 www.graph.facebook.com
 api.facebook.com
 star.c10r.facebook.com
