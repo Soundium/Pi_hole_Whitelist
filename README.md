@@ -38,6 +38,7 @@ If you keep the `/etc/pihole` on a volume outside the container you need to chan
 ```
 git clone https://github.com/Soundium/Pi_hole_Whitelist.git
 cd Pi_hole_Whitelist/scripts
+sudo chmod +x ./whitelist.sh
 sudo ./whitelist.sh
 ```
 **Note: You don't have to clone the repo every time you need to update whitelist file. Navigate to `Pi_hole_Whitelist/scripts` and run it again `sudo ./whitelist.sh`**
@@ -48,6 +49,12 @@ sudo ./whitelist.sh
 cd /opt/
 sudo git clone https://github.com/Soundium/Pi_hole_Whitelist.git
 ```
+
+Give the rights.
+```
+sudo chmod +x /opt/Pi_hole_Whitelist/scripts/whitelist.sh
+```
+
 Make the script to run the script at 1AM every day.
 
 `sudo nano /etc/crontab`
