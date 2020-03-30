@@ -37,7 +37,7 @@ If you keep the `/etc/pihole` on a volume outside the container you need to chan
 ***Manual installation***     
 ```
 git clone https://github.com/Soundium/Pi_hole_Whitelist.git
-cd whitelist/scripts
+cd Pi_hole_Whitelist/scripts
 sudo ./whitelist.sh
 ```
 **Note: You don't have to clone the repo every time you need to update whitelist file. Navigate to `Pi_hole_Whitelist/scripts` and run it again `sudo ./whitelist.sh`**
