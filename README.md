@@ -60,7 +60,12 @@ CTRL + X then Y and Enter
 ```
 sudo /opt/Pi_hole_Whitelist/scripts/whitelist.sh
 ```
-   
+
+***     
+
+### Donation
+All donations are welcome and will help me to maintain this project. Please use "**Sponsor**" button on the top of this page.
+
 ***     
    
 ### License
