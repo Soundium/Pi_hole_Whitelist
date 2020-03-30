@@ -192,10 +192,47 @@ xsts.auth.xboxlive.com
 youtu.be
 youtube-nocookie.com
 yt3.ggpht.com
+www.youtube.com
+youtube.com
+ocsp.digicert.com
+www.howtogeek.com
+feeds.feedburner.com
+hosts-file.net
+feeds.feedblitz.com
+www.security.nl
+photos-ugc.l.googleusercontent.com
+ytimg-edge-static.l.google.com
+codeload.github.com
+www.cdnjs.cloudflare.com
+gitlab.com
+www.gitlab.com
+www.clients1.google.com
+clients.l.google.com
+forms.office.com
+prod.forms.office.com.akadns.net
+vmware.com
+netatmo.com
+netatmo.net
+ae01.alicdn.com
+www.ae01.alicdn.com
+global-image.aliexpress.com
+global-image.aliexpress.com.gds.alibabadns.com
+us1111.alicdn.com.edgekey.net
+graph.facebook.com
+www.graph.facebook.com
+api.facebook.com
+star.c10r.facebook.com
+media.licdn.com
+www.media.licdn.com
+graph.instagram.com
+www.graph.instagram.com
+instagram.c10r.facebook.com
+neatocloud.com
+webhook.logentries.com
+
 # Amazon Alexa and Amazon Shopping app
 device-metrics-us-2.amazon.com
 device-metrics-us.amazon.com
-
 # Amazon Kindle
 cognito-identity.us-east-1.amazonaws.com
 unagi-na.amazon.com
@@ -206,13 +243,12 @@ device-messaging-na.amazon.com
 s3-eu-west-1.amazonaws.com
 us-east-1.amazonaws.com
 
-# Amazon AWS (???) - whitelist to make Kryptonite work
+# Amazon AWS 
 sqs.us-east-1.amazonaws.com
 
 # Bild.de
 acdn.adnxs.com
 cdn1.smartadserver.com
-ec-ns.sascdn.com
 
 #Banks
 api.leanplum.com
@@ -249,9 +285,6 @@ external-lhr7-1.xx.fbcdn.net
 external-lhr8-1.xx.fbcdn.net
 external-lhr9-1.xx.fbcdn.net
 fbcdn-creative-a.akamaihd.net
-graph.facebook.com
-graph.instagram.com
-instagram.c10r.facebook.com
 scontent-lhr3-1.xx.fbcdn.net
 scontent.xx.fbcdn.net
 scontent.fgdl5-1.fna.fbcdn.net
@@ -289,8 +322,6 @@ graphql.epicgames.com
 tracking.epicgames.com 
 
 # Host files
-hosts-file.net
-raw.githubusercontent.com
 v.firebog.net
 hostsfile.org
 someonewhocares.org
@@ -299,9 +330,6 @@ winhelp2002.mvps.org
 sysctl.org
 pgl.yoyo.org
 zeustracker.abuse.ch
-
-# Images not loading on aliexpress.com
-ae01.alicdn.com
 
 # Jackbox.tv
 www.google-analytics.com
@@ -312,7 +340,7 @@ ssl.google-analytics.com
 lotustalk.com
 www.lotustalk.com
 
-# National Express, UK (nationalexpress.com/en) - Unable to book journey
+# National Express, UK (nationalexpress.com/en) 
 cdns.gigya.com
 
 # Netflix - Domains needed for netlix to work correctly
@@ -323,6 +351,15 @@ secure.netflix.com
 
 # Nvidia updates
 ota-downloads.nvidia.com
+
+#NEST Doorbell
+nexus.dropcam.com 
+oculus4395-us1.dropcam.com
+
+#NPO
+b.scorecardresearch.com 
+sb.scorecardresearch.com 
+tag.aticdn.net
 
 # Openload - media serving site
 openload.co
@@ -340,6 +377,18 @@ players.pluto.tv
 #Papa John
 viewer.content.glympse.com
 
+#PS4
+72qclg2-gosprod-qos02.i3d-jnb.ea.com
+54-201-170-112-pushcl.np.communication.playstation.net
+vl.api.np.km.playstation.net
+utas.external.s2.fut.ea.com
+us-tpy.np.community.playstation.net
+us-push.np.communication.playstation.net
+us-prof.np.community.playstation.net
+us-ntl.np.community.playstation.net
+us.np.stun.playstation.net
+us-ivt.np.community.playstation.net
+
 #Microsoft
 sfdataservice.microsoft.com
 
@@ -350,15 +399,15 @@ dcs-vod.apis.anvato.net
 z.cdn.turner.com
 manifest.auditude.com
 
-# Refersion.com (affiliate marketing)
-cdn.refersion.com
-refersion.com
-www.refersion.com
-
 # Roku TV CW and NBC app
 cwtv-mrss-akamai.cwtv.com
 cwtv-prod-elb.digitalsmiths.net
-redirector.googlevideo.com
+
+#REHL
+79423.analytics.edgekey.net
+
+#Rakuten
+s-bid.rmp.rakuten.com
 
 # Samsung TV's Amazon Prime Video app
 time.samsungcloudsolution.com
@@ -387,16 +436,17 @@ shareaholic.com
 assets.adobedtm.com
 
 # Spotify premium with Denon Heos speakers
-# https://github.com/anudeepND/whitelist/issues/93
 mobile-ap.spotify.com
 apresolve.spotify.com
 upgrade.scdn.com
 market.spotify.com
-spclient.wg.spotify.com
 audio-ake.spotify.com.edgesuite.net
 
 #Sueddeutsche
 c.amazon-adsystem.com
+
+# streamelements.com (Blocked by Pi-hole regex)
+stats.streamelements.com
 
 # Target's Weekly Ads
 weeklyad.target.com
@@ -417,10 +467,6 @@ www.ow.ly
 amzn.to
 amzn.com
 
-# Videos not playing on  arstechnica/wired/vogue/newyorker
-# Note: ads before videos may appear after whitelisting this domain
-d2c8v52ll5s99u.cloudfront.net
-
 # Videos not playing on www.jacquielawson.com
 f1.media.brightcove.com
 
@@ -432,34 +478,3 @@ livepassdl.conviva.com
 # Xbox Achievements and game stats sync
 v10.events.data.microsoft.com
 v20.events.data.microsoft.com
-
-# streamelements.com (Blocked by Pi-hole regex)
-stats.streamelements.com
-
-#REHL
-79423.analytics.edgekey.net
-
-#PS4
-72qclg2-gosprod-qos02.i3d-jnb.ea.com
-54-201-170-112-pushcl.np.communication.playstation.net
-vl.api.np.km.playstation.net
-utas.external.s2.fut.ea.com
-us-tpy.np.community.playstation.net
-us-push.np.communication.playstation.net
-us-prof.np.community.playstation.net
-us-ntl.np.community.playstation.net
-us.np.stun.playstation.net
-us-ivt.np.community.playstation.net
-
-#Rakuten
-s-bid.rmp.rakuten.com
-
-#NEST Doorbell
-nexus.dropcam.com 
-oculus4395-us1.dropcam.com
-
-#NPO
-b.scorecardresearch.com 
-sb.scorecardresearch.com 
-tag.aticdn.net
-
