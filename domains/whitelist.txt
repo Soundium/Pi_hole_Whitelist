@@ -3765,3 +3765,9 @@ keenetic.link
 ssh.cloud.google.com
 startmail.com
 profile.franklintempleton.com
+
+#added on 2020-04-02
+shareasale-analytics.com
+click.linksynergy.com
+cj.dotomi.com
+www.kqzyfj.com
