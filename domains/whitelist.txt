@@ -5,6 +5,33 @@ shareasale-analytics.com
 click.linksynergy.com
 cj.dotomi.com
 www.kqzyfj.com
+s3.amazonaws.com
+clients2.google.com
+clients3.google.com
+clients4.google.com
+clients5.google.com
+www.bit.ly
+bit.ly
+ow.ly
+j.mp
+goo.gl
+tinyurl.com
+msftncsi.com
+www.msftncsi.com
+ea.com
+cdn.optimizely.com
+res.cloudinary.com
+gravatar.com
+rover.ebay.com
+imgs.xkcd.com
+netflix.com
+alluremedia.com.au
+tomshardware.com
+ocsp.apple.com
+s.shopify.com
+keystone.mwbsys.com
+dl.dropbox.com
+api.ipify.org
 
 #added on 2020-04-03
 shareasale-analytics.com
