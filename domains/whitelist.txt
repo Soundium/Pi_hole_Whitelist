@@ -1,3 +1,12 @@
+#added on 2020-04-10
+appleid.apple.com
+ax.phobos.apple.com.edgesuite.net
+ocsp.apple.com
+radarsubmissions.apple.com
+news.iadsdk.apple.com
+iadsdk.apple.com
+cf.iadsdk.apple.com
+
 #added on 2020-04-09
 pdst.fm
 traffic.megaphone.fm
