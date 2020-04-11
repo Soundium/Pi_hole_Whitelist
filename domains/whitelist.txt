@@ -1,4 +1,6 @@
 #added on 2020-04-11
+ssl.google-analytics.com
+dev.visualwebsiteoptimizer.com
 fcmconnection.googleapis.com
 f-log-extension.grammarly.io
 mobile.twitter.com
