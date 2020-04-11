@@ -1,4 +1,10 @@
 #added on 2020-04-11
+api.twitter.com
+twitter.com
+abs.twimg.com
+pbs.twimg.com
+www.google-analytics.com
+video.twimg.com
 analytics.twitter.com
 video-stats.l.google.com
 s.youtube.com
