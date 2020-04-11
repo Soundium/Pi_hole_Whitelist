@@ -1,4 +1,6 @@
 #added on 2020-04-11
+fcmconnection.googleapis.com
+f-log-extension.grammarly.io
 mobile.twitter.com
 dns.cloudflare.com
 abs-0.twimg.com
