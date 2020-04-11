@@ -1,4 +1,6 @@
 #added on 2020-04-11
+mobile.twitter.com
+dns.cloudflare.com
 abs-0.twimg.com
 ajax.googleapis.com
 api.twitter.com
