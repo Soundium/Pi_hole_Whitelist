@@ -1,11 +1,11 @@
-#added on 2020-05-13
+# added_on_2020_05_13
 www.msftconnecttest.com
 www.msftncsi.com
 connectivitycheck.gstatic.com
 connectivitycheck.android.com
 clients3.google.com
 
-#added on 2020-04-11
+# added_on_2020_04_11
 ssl.google-analytics.com
 dev.visualwebsiteoptimizer.com
 fcmconnection.googleapis.com
@@ -180,9 +180,7 @@ identity.mparticle.com
 mediation.adnxs.com
 mpsnare.iesnare.com
 
-
-
-#added on 2020-04-10
+# added_on_2020_04_10
 appleid.apple.com
 ax.phobos.apple.com.edgesuite.net
 ocsp.apple.com
@@ -191,7 +189,7 @@ news.iadsdk.apple.com
 iadsdk.apple.com
 cf.iadsdk.apple.com
 
-#added on 2020-04-09
+# added_on_2020_04_09
 pdst.fm
 traffic.megaphone.fm
 shareasale-analytics.com
@@ -226,7 +224,7 @@ keystone.mwbsys.com
 dl.dropbox.com
 api.ipify.org
 
-#added on 2020-04-03
+# added_on_2020_04_03
 shareasale-analytics.com
 click.linksynergy.com
 cj.dotomi.com
@@ -237,6 +235,7 @@ activate.adobe.com
 1drv.ms
 arc.msn.com
 
+# added_on_2020_04_01
 0.client-channel.google.com
 1drv.com
 2.android.pool.ntp.org
