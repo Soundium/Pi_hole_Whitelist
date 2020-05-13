@@ -1,3 +1,10 @@
+#added on 2020-05-13
+www.msftconnecttest.com
+www.msftncsi.com
+connectivitycheck.gstatic.com
+connectivitycheck.android.com
+clients3.google.com
+
 #added on 2020-04-11
 ssl.google-analytics.com
 dev.visualwebsiteoptimizer.com
