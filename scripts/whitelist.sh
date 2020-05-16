@@ -27,7 +27,7 @@ mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.old && 
 
 wait
 echo -e " [...] \e[32m Pi-hole gravity rebuilding lists. This may take a while... \e[0m"
-${GRAVITY_UPDATE_COMMAND} $(xargs -0 < "${PIHOLE_LOCATION}"/whitelist.txt) > /dev/null
+${GRAVITY_UPDATE_COMMAND} $(xargs -0 < "${PIHOLE_LOCATION}"/whitelist.txt) --comment "Soundium/whitelist" > /dev/null
 wait
 echo -e " ${TICK} \e[32m Pi-hole's gravity updated \e[0m"
 echo -e " ${TICK} \e[32m Done! \e[0m"
