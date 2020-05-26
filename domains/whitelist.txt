@@ -1,3 +1,6 @@
+# added_on_2020_05_26
+scripts.kataweb.it
+
 # added_on_2020_05_13
 www.msftconnecttest.com
 www.msftncsi.com
