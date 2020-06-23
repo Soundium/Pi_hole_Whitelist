@@ -1,3 +1,6 @@
+# added_on_2020_06_23
+pulsar.ebay.com
+
 # added_on_2020_05_26
 scripts.kataweb.it
 
